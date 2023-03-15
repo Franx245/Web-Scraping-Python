@@ -14,7 +14,7 @@ Parsea la página HTML utilizando Beautiful Soup para buscar el primer resultado
 Si se encuentra un resultado, hace otra solicitud GET a la página del resultado y parsea la página para encontrar los valores nutricionales del alimento.
 
 Imprime los valores nutricionales en la consola.
-
+---
 Mini tutorial
 
 Descarga el código y abre el archivo en un editor de texto.
