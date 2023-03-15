@@ -1,4 +1,5 @@
 # Cómo funciona este código
+---
 
 Este código permite al usuario buscar información nutricional sobre un alimento específico utilizando la página web https://fitia.app. El código hace lo siguiente:
 
