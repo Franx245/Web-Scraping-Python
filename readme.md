@@ -16,6 +16,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 6. Imprime los valores nutricionales en la consola.
 
 ---
+
 ## Cómo utilizar el código
 
 1. Asegúrate de tener Python instalado en tu máquina.
