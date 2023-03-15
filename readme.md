@@ -41,4 +41,4 @@ Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
 1. Realiza un fork de este repositorio y clónalo en tu máquina local.
 2. Realiza tus cambios y verifica que todo funcione correctamente.
 3. Agrega una descripción detallada de tus cambios en el archivo README.md.
-Haz un pull request con tus cambios y espera a que sean revisados.
+4. Haz un pull request con tus cambios y espera a que sean revisados.
