@@ -32,3 +32,5 @@ pip install requests beautifulsoup4
 
 5. Ingresa el nombre del alimento que deseas buscar y presiona enter.
 Los valores nutricionales del alimento se imprimirán en la consola.
+
+---
