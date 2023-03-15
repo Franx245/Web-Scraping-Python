@@ -18,7 +18,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 ---
 ## Cómo utilizar el código
 
-Asegúrate de tener Python instalado en tu máquina.
+1. Asegúrate de tener Python instalado en tu máquina.
 Instala las bibliotecas Requests y Beautiful Soup utilizando pip.
 Copia el código en un archivo Python y guarda el archivo con un nombre descriptivo, como "nutricion.py".
 Ejecuta el archivo Python en tu consola.
