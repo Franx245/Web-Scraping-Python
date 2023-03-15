@@ -8,6 +8,7 @@ Solicita al usuario que ingrese el alimento que desea buscar.
 Valida que la entrada del usuario sea un texto alfabético.
 
 Hace una solicitud GET a la página de búsqueda de alimentos de https://fitia.app con la consulta del usuario.
+
 Parsea la página HTML utilizando Beautiful Soup para buscar el primer resultado de la búsqueda.
 Si se encuentra un resultado, hace otra solicitud GET a la página del resultado y parsea la página para encontrar los valores nutricionales del alimento.
 Imprime los valores nutricionales en la consola.
