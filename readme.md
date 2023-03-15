@@ -3,7 +3,7 @@
 
 Este código permite al usuario buscar información nutricional sobre un alimento específico utilizando la página web https://fitia.app. El código hace lo siguiente:
 
-Solicita al usuario que ingrese el alimento que desea buscar.
+1.Solicita al usuario que ingrese el alimento que desea buscar.
 
 Valida que la entrada del usuario sea un texto alfabético.
 
