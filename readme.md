@@ -22,7 +22,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 1. Asegúrate de tener Python instalado en tu máquina.
 
 2. Instala las bibliotecas Requests y Beautiful Soup utilizando pip.
-
+```
 
 3. Copia el código en un archivo Python y guarda el archivo con un nombre descriptivo, como "nutricion.py".
 
