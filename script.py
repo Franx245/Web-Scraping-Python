@@ -45,12 +45,11 @@ if first_result:
 
     # Imprimir los valores nutricionales
     for nutrient in nutrient_values:
-        nutrient_info = nutrient.select('body > div.mx-auto.max-w-7xl.px-4.sm\:px-6.lg\:px-8 > section.mx-auto.max-w-4xl.pb-8.sm\:pb-10.md\:pb-12.space-y-12 > div:nth-child(4) > div > div > div:nth-child(9)')
-    if nutrient_info:
-        nutrient_name = nutrient_info.select('body > div.mx-auto.max-w-7xl.px-4.sm\:px-6.lg\:px-8 > section.mx-auto.max-w-4xl.pb-8.sm\:pb-10.md\:pb-12.space-y-12 > div:nth-child(4) > div > div > div:nth-child(9) > span:nth-child(1)')
-        nutrient_value = nutrient_info.select('body > div.mx-auto.max-w-7xl.px-4.sm\:px-6.lg\:px-8 > section.mx-auto.max-w-4xl.pb-8.sm\:pb-10.md\:pb-12.space-y-12 > div:nth-child(4) > div > div > div:nth-child(9) > span:nth-child(2) > span')
-        print(f"{nutrient_name.text}: {nutrient_value.text}")
-    else:
-        print("No se encontró información nutricional para este elemento.")
+        nutrient_info = nutrient.select_one('span:nth-child(1)')
+        nutrient_value = nutrient.select_one('body > div.mx-auto.max-w-7xl.px-4.sm\:px-6.lg\:px-8 > section.mx-auto.max-w-4xl.pb-8.sm\:pb-10.md\:pb-12.space-y-12 > div:nth-child(4) > div > div')
+        if nutrient_info and nutrient_value:
+            print(f"{nutrient_info.text}: {nutrient_value.text}")
+        else:
+            print("No se encontró información nutricional para este elemento.")
 else:
     print("No se encontraron resultados para la búsqueda.")
