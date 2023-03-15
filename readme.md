@@ -34,3 +34,10 @@ pip install requests beautifulsoup4
 Los valores nutricionales del alimento se imprimirán en la consola.
 
 ---
+Cómo contribuir
+Si deseas contribuir a este proyecto, puedes seguir los siguientes pasos:
+
+Realiza un fork de este repositorio y clónalo en tu máquina local.
+Realiza tus cambios y verifica que todo funcione correctamente.
+Agrega una descripción detallada de tus cambios en el archivo README.md.
+Haz un pull request con tus cambios y espera a que sean revisados.
