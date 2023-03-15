@@ -11,7 +11,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 
 4. Parsea la página HTML utilizando Beautiful Soup para buscar el primer resultado de la búsqueda.
 
-Si se encuentra un resultado, hace otra solicitud GET a la página del resultado y parsea la página para encontrar los valores nutricionales del alimento.
+5. Si se encuentra un resultado, hace otra solicitud GET a la página del resultado y parsea la página para encontrar los valores nutricionales del alimento.
 
 Imprime los valores nutricionales en la consola.
 
