@@ -18,8 +18,10 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 ---
 ## Mini tutorial
 
-Descarga el código y abre el archivo en un editor de texto.
-Ejecuta el código en la terminal o en un entorno de Python.
-Ingresa el alimento que deseas buscar y presiona Enter.
-Si se encuentra información nutricional para el alimento, la verás en la consola. De lo contrario, verás un mensaje indicando que no se encontró información nutricional.
-Prueba con diferentes alimentos y experimenta con el código para personalizarlo según tus necesidades.
+Cómo utilizar el código
+Asegúrate de tener Python instalado en tu máquina.
+Instala las bibliotecas Requests y Beautiful Soup utilizando pip.
+Copia el código en un archivo Python y guarda el archivo con un nombre descriptivo, como "nutricion.py".
+Ejecuta el archivo Python en tu consola.
+Ingresa el nombre del alimento que deseas buscar y presiona enter.
+Los valores nutricionales del alimento se imprimirán en la consola.
