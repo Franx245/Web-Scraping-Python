@@ -5,7 +5,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 
 1. Solicita al usuario que ingrese el alimento que desea buscar.
 
-Valida que la entrada del usuario sea un texto alfabético.
+2. Valida que la entrada del usuario sea un texto alfabético.
 
 Hace una solicitud GET a la página de búsqueda de alimentos de https://fitia.app con la consulta del usuario.
 
