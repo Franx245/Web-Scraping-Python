@@ -16,7 +16,7 @@ Este código permite al usuario buscar información nutricional sobre un aliment
 6. Imprime los valores nutricionales en la consola.
 
 ---
-## Mini tutorialCómo utilizar el código
+## Cómo utilizar el código
 
 Asegúrate de tener Python instalado en tu máquina.
 Instala las bibliotecas Requests y Beautiful Soup utilizando pip.
