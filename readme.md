@@ -16,6 +16,7 @@ Si se encuentra un resultado, hace otra solicitud GET a la página del resultado
 Imprime los valores nutricionales en la consola.
 
 Mini tutorial
+
 Descarga el código y abre el archivo en un editor de texto.
 Ejecuta el código en la terminal o en un entorno de Python.
 Ingresa el alimento que deseas buscar y presiona Enter.
